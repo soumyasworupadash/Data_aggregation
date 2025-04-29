@@ -104,7 +104,7 @@ FROM online_sales
 GROUP BY Product Name
 ORDER BY total_revenue DESC
 LIMIT 5;
-![Month from Order Date](a_order_month.png)
+![Top 5 Best-Selling](h_top5_prod.png)
 
 ---
 
@@ -122,7 +122,7 @@ FROM online_sales
 WHERE Date >= '2024-03-01' AND Date < '2024-04-01'
 GROUP BY order_year, order_month
 ORDER BY order_year, order_month;
-![Month from Order Date](a_order_month.png)
+![Results Specific Time Period](i_total_period.png)
 
 ---
 
